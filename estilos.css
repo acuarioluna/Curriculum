@@ -1,0 +1,64 @@
+header, section {
+    display: flex;
+    width: 980px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-family: 'Unbounded', cursive;
+}
+
+h2 {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+      } ;
+
+
+
+  /* Step 1: Common Properties
+  These styles are required to make icons render reliably */
+  .icon::before {
+    display: inline-block;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  #para1 {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    margin-left: 200px;
+    color: blue;
+    font-size: 25px;
+  }     
+
+  .myDiv {
+    width: auto;
+    border:1px solid grey;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 180px;
+    margin-right: 180px;
+  }
+
+  aside {
+    margin-left: 130px;
+  }
+
+  article {
+    margin-left: 60px;
+  }
+
+  footer {
+    text-align: center;
+    padding: 6px;
+    background-color: DarkSalmon;
+  }
+footer i {
+  margin-left: 15px;
+}
+  
+img {
+  clip-path: circle(50%);
+  background-color:#FFFFFF;
+}
+header {
+  background:lightblue;
+}
